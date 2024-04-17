@@ -117,6 +117,9 @@ html {
     min-height: 30rem;
   }
   
+  .logo{
+    min-height:auto;
+  }
   /*
   *
   * ==========================================
@@ -2309,6 +2312,7 @@ html {
   h2,
   .h2 {
     font-size: 1.9rem;
+    color:#aaa;
   }
   
   h3,

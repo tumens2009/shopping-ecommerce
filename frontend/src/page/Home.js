@@ -42,9 +42,9 @@ export default function Home() {
                   <h1 className="h2 text-uppercase mb-3">
                     20% off on new season
                   </h1>
-                  <a className="btn btn-dark" href="shop.html">
+                  {/* <a className="btn btn-dark" href="shop.html">
                     Browse collections
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

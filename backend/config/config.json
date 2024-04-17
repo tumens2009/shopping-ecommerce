@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": "Nguyenvansang1997!@",
+    "password": null,
     "database": "shopping_FS",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "test": {
     "username": "root",
     "password": null,
-    "database": "database_test",
+    "database": "shopping_FS",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   },
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
+    "database": "shopping_FS",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mariadb"
   }
 }

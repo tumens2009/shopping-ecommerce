@@ -37,7 +37,19 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
-      }
+      },
+      description: {
+        allowNull: true,
+        type: Sequelize.STRING
+      },
+      originalPrice: {
+        allowNull: true,
+        type: Sequelize.STRING
+      },
+      promotionPercent{
+        allowNull: true,
+        type: Sequelize.INTEGER
+      },
     });
   },
   async down(queryInterface, Sequelize) {

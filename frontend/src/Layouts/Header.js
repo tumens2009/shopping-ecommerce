@@ -29,9 +29,7 @@ export default function Header() {
     <div className="container px-0 px-lg-3">
       <nav className="navbar navbar-expand-lg navbar-light py-3 px-lg-0">
         <NavLink to="/" className="navbar-brand">
-          <span className="font-weight-bold text-uppercase text-dark">
-            Boutique
-          </span>
+         {/*  */}
         </NavLink>
         <button
           className="navbar-toggler"
@@ -46,7 +44,7 @@ export default function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
@@ -55,19 +53,25 @@ export default function Header() {
               <NavLink className="nav-link" to="/shop">
                 Shop
               </NavLink>
-            </li>
+            </li> */}
+              
+             <span className="font-weight-bold text-uppercase text-dark">
+            DET 4 RUNNER
+            </span>
+            
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <NavLink className="nav-link" to="/cart">
-                <i className="fas fa-dolly-flatbed mr-1 text-gray position-relative"></i>
-                Cart
+                {/* <i className="fas fa-dolly-flatbed mr-1 text-gray position-relative"></i> */}
+                {/* Cart */}
                 {/* <span
                   className="position-absolute px-1 text-xs text-white bg-danger rounded-circle"
                   style={{ top: "18px" }}
                 >
                   {carts.cartToTalProduct}
                 </span> */}
+               
               </NavLink>
             </li>
             {user ? (

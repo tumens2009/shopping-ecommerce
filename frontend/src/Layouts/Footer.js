@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="col-md-4 mb-3 mb-md-0">
             <h6 className="text-uppercase mb-3">Customer services</h6>
             <ul className="list-unstyled mb-0">
-              <li>
+              {/* <li>
                 <a className="footer-link" href="#">
                   Help &amp; Contact Us
                 </a>
@@ -27,13 +27,13 @@ export default function Footer() {
                 <a className="footer-link" href="#">
                   Terms &amp; Conditions
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-4 mb-3 mb-md-0">
             <h6 className="text-uppercase mb-3">Company</h6>
             <ul className="list-unstyled mb-0">
-              <li>
+              {/* <li>
                 <a className="footer-link" href="#">
                   What We Do
                 </a>
@@ -52,13 +52,13 @@ export default function Footer() {
                 <a className="footer-link" href="#">
                   FAQs
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-4">
             <h6 className="text-uppercase mb-3">Social media</h6>
             <ul className="list-unstyled mb-0">
-              <li>
+              {/* <li>
                 <a className="footer-link" href="#">
                   Twitter
                 </a>
@@ -77,7 +77,7 @@ export default function Footer() {
                 <a className="footer-link" href="#">
                   Pinterest
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function Footer() {
           style={{ borderColor: "#1d1d1d !important" }}
         >
           <div className="row">
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <p className="small text-muted mb-0">
                 &copy; 2020 All rights reserved.
               </p>
@@ -98,7 +98,7 @@ export default function Footer() {
                   Abert Nguyen
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
