@@ -6,8 +6,12 @@ export default function Footer() {
       <div className="container py-4">
         <div className="row py-5">
           <div className="col-md-4 mb-3 mb-md-0">
-            <h6 className="text-uppercase mb-3">Customer services</h6>
+            <h6 className="text-uppercase mb-3">Contact services</h6>
             <ul className="list-unstyled mb-0">
+
+              <li><a className="footer-link" href="#">
+              Phone: 9590 9498
+                </a></li>
               {/* <li>
                 <a className="footer-link" href="#">
                   Help &amp; Contact Us
@@ -58,6 +62,12 @@ export default function Footer() {
           <div className="col-md-4">
             <h6 className="text-uppercase mb-3">Social media</h6>
             <ul className="list-unstyled mb-0">
+             <li>
+                <a className="footer-link" href="https://www.facebook.com/profile.php?id=100087280091164&sk=about">
+                  Facebook
+                </a>
+              </li>
+            
               {/* <li>
                 <a className="footer-link" href="#">
                   Twitter

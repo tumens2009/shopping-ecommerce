@@ -40,6 +40,7 @@ const publicRoutes = [
     path: "/HistoryUser",
     component: HistoryUser,
   },
+  
 ];
 
 export default publicRoutes;

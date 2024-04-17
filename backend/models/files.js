@@ -9,12 +9,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate({ Product }) {
       
-      files.belongsTo(Product, { foreignKey: "id" });
+      files.belongsTo(Product, { primaryKey: "idProduct" });
     }
   }
-  Cart.init(
+  files.init(
     {
-      id: DataTypes.INTEGER,
+      idProduct: DataTypes.INTEGER,
       name: DataTypes.INTEGER,
       path: DataTypes.STRING,
       author_id: DataTypes.INTEGER,

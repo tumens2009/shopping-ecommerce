@@ -19,7 +19,7 @@ export default function Header() {
   };
 
   const handleManage = () => {
-    navigate("/manage");
+    navigate("/admin");
   };
   const handleHistory = () => {
     navigate("/historyUser");
@@ -54,11 +54,30 @@ export default function Header() {
                 Shop
               </NavLink>
             </li> */}
-              
-             <span className="font-weight-bold text-uppercase text-dark">
-            DET 4 RUNNER
-            </span>
-            
+            <li className="nav-item">
+            <NavLink className="nav-link" to="/">
+              <img 
+                src="http://localhost:3000/image/logo.jpg"
+                alt="img"
+                width={50}
+                height={50}
+              /> 
+              </NavLink>
+            </li>
+            <li className="nav-item">
+            <NavLink className="nav-link" to="/">
+              <div>
+              <span className="font-weight-bold text-uppercase text-dark">
+                DET 4 RUNNER
+              </span>
+              </div>
+              <div>
+              <span className="font-weight-light text-uppercase text-dark">
+                Тоноглол
+              </span>
+              </div>
+            </NavLink>
+            </li>
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">

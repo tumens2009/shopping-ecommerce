@@ -108,7 +108,7 @@ export default function Shop() {
 
   return (
     <div className="container">
-      <div className="py-5 bg-light">
+      {/* <div className="py-5 bg-light">
         <div className="container">
           <div className="row px-4 px-lg-5 py-lg-4 align-items-center">
             <div className="col-lg-6">
@@ -125,7 +125,7 @@ export default function Shop() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {productFilter?.map((item, index) => (
         <div className="modal fade show" id={`product_${item.id}`} key={index}>
           <div
@@ -154,7 +154,7 @@ export default function Shop() {
                       data-dismiss="modal"
                       aria-label="Close"
                     >
-                      ×
+                      
                     </a>
                     <div className="p-5 my-md-4">
                       <ul className="list-inline mb-2">
@@ -203,7 +203,7 @@ export default function Shop() {
               <h5 className="text-uppercase mb-4">Categories</h5>
               <div className="py-2 px-4 bg-dark text-white mb-3">
                 <strong className="small text-uppercase font-weight-bold">
-                  Fashion &amp; Acc
+                  Front Bumper
                 </strong>
               </div>
               <ul className="list-unstyled small text-muted pl-lg-4 font-weight-normal">
@@ -219,7 +219,7 @@ export default function Shop() {
               </ul>
               <div className="py-2 px-4 bg-light mb-3">
                 <strong className="small text-uppercase font-weight-bold">
-                  Fashion Style
+                  Rear Bumper
                 </strong>
               </div>
               <ul className="list-unstyled small text-muted pl-lg-4 font-weight-normal">
@@ -229,17 +229,17 @@ export default function Shop() {
                     href="#"
                     onClick={() => handleCategory("clothes")}
                   >
-                    Clothes
+                    Brakes
                   </a>
                 </li>
               </ul>
               <div className="py-2 px-4 bg-light mb-3">
                 <strong className="small text-uppercase font-weight-bold">
-                  Health &amp; Beauty
+                  Electronics
                 </strong>
               </div>
               <ul className="list-unstyled small text-muted pl-lg-4 font-weight-normal">
-                <li className="mb-2">
+                {/* <li className="mb-2">
                   <a
                     className="reset-anchor"
                     href="#"
@@ -256,13 +256,13 @@ export default function Shop() {
                   >
                     Watches
                   </a>
-                </li>
+                </li> */}
               </ul>
-              <div className="py-2 px-4 bg-light mb-3">
+              {/* <div className="py-2 px-4 bg-light mb-3">
                 <strong className="small text-uppercase font-weight-bold">
                   Electronics
                 </strong>
-              </div>
+              </div> */}
               <ul className="list-unstyled small text-muted pl-lg-4 font-weight-normal mb-5">
                 <li className="mb-2">
                   <a
@@ -276,7 +276,7 @@ export default function Shop() {
               </ul>
             </div>
             <div className="col-lg-9 order-1 order-lg-2 mb-5 mb-lg-0">
-              <div className="row mb-3 align-items-center">
+              {/* <div className="row mb-3 align-items-center">
                 <Search handleSearch={handleSearch} />
 
                 <div className="col-lg-8">
@@ -286,7 +286,7 @@ export default function Shop() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
               <Products productPanigation={productPanigation} sort={sort} />
 

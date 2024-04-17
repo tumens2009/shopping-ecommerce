@@ -37,7 +37,7 @@ export default function Home() {
               <div className="row px-4 px-lg-5">
                 <div className="col-lg-6">
                   <p className="text-muted small text-uppercase mb-2">
-                    New Inspiration 2020
+                    New Inspiration 2024
                   </p>
                   <h1 className="h2 text-uppercase mb-3">
                     20% off on new season
@@ -52,44 +52,44 @@ export default function Home() {
           <div className="pt-5">
             <div className="text-center">
               <p className="small text-muted small text-uppercase mb-1">
-                Carefully created collections
+                WHAT WE DO
               </p>
-              <h2 className="h5 text-uppercase mb-4">Browse our categories</h2>
+              <h2 className="h5 text-uppercase mb-4">PARTS</h2>
             </div>
             <div className="row">
               <div className="col-md-4 mb-4 mb-md-0">
                 <NavLink className="category-item" to="/shop">
                   <img
                     className="img-fluid"
-                    src="/image/cat-img-1.jpg"
+                    src="/image/rear_bump.jpg"
                     alt=""
                   />
-                  <strong className="category-item-title">Clothes</strong>
+                  <strong className="category-item-title">Bumper Rear</strong>
                 </NavLink>
               </div>
               <div className="col-md-4 mb-4 mb-md-0">
                 <NavLink className="category-item mb-4" to="/shop">
                   <img
                     className="img-fluid"
-                    src="/image/cat-img-2.jpg"
+                    src="/image/front_bump.jpg"
                     alt=""
                   />
-                  <strong className="category-item-title">Shoes</strong>
+                  <strong className="category-item-title">Front Bump</strong>
                 </NavLink>
                 <NavLink className="category-item" to="/shop">
                   <img
                     className="img-fluid"
-                    src="/image/cat-img-3.jpg"
+                    src="/image/rotor.jpg"
                     alt=""
                   />
-                  <strong className="category-item-title">Watches</strong>
+                  <strong className="category-item-title">Brake</strong>
                 </NavLink>
               </div>
               <div className="col-md-4">
                 <NavLink className="category-item" to="/shop">
                   <img
                     className="img-fluid"
-                    src="/image/cat-img-4.jpg"
+                    src="/image/android.jpg"
                     alt=""
                   />
                   <strong className="category-item-title">Electronics</strong>
@@ -97,7 +97,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-5" id="section_product">
+          <div className="py-5" id="section_product"></div>
+          {/* <div className="py-5" id="section_product">
             <div>
               <p className="small text-muted small text-uppercase mb-1">
                 Made the hard way
@@ -107,8 +108,8 @@ export default function Home() {
             <div className="row d-block">
               <ProductBigSale productDiscount={productDiscount} />
             </div>
-          </div>
-          <div className="py-5" id="section_product">
+          </div> */}
+          {/* <div className="py-5" id="section_product">
             <div>
               <p className="small text-muted small text-uppercase mb-1">
                 Made the hard way
@@ -118,7 +119,7 @@ export default function Home() {
             <div className="row d-block">
               <ProductForYou listProduct={listProduct} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
