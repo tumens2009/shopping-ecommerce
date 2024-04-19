@@ -1,4 +1,5 @@
 const express = require("express");
+const multer = require("multer")
 const {
   addProduct,
   getListProduct,
@@ -9,6 +10,19 @@ const {
   getProductByCategory,
 } = require("../../services/products");
 const productRouter = express.Router();
+
+
+const storageDisk = multer.diskStorage({
+  destination: (req, file, callback) => {
+      callback(null, path.join(__dirname, `../../../../uploads/`));
+  },
+  filename: (req, file, callback) => {
+      const filename = `${'file-'}${Date.now()}${path.extname(file.originalname)}`;
+      callback(null, filename);
+  },
+});
+
+const multipleUpload = multer({ storage: storageDisk }).single('files');
 
 productRouter.post("/", async (req, res) => {
   const {

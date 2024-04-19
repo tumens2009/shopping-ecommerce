@@ -1,6 +1,6 @@
 "use strict";
 const { Model } = require("sequelize");
-module.exports = (sequelize, DataTypes) => {
+module.exports = async (sequelize, DataTypes) => {
   class files extends Model {
     /**
      * Helper method for defining associations.
@@ -12,6 +12,7 @@ module.exports = (sequelize, DataTypes) => {
       files.belongsTo(Product, { primaryKey: "idProduct" });
     }
   }
+
   files.init(
     {
       idProduct: DataTypes.INTEGER,
@@ -26,6 +27,7 @@ module.exports = (sequelize, DataTypes) => {
       modelName: "files",
     }
   );
+   
   // Cart.sync({ alter: true });
   return files;
 };

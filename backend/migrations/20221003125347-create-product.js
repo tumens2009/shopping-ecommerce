@@ -46,7 +46,7 @@ module.exports = {
         allowNull: true,
         type: Sequelize.STRING
       },
-      promotionPercent{
+      promotionPercent: {
         allowNull: true,
         type: Sequelize.INTEGER
       },

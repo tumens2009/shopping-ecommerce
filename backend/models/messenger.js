@@ -21,6 +21,7 @@ module.exports = (sequelize, DataTypes) => {
       content: DataTypes.TEXT,
       idConverstation: DataTypes.INTEGER,
       category: DataTypes.STRING,
+      
     },
     {
       sequelize,

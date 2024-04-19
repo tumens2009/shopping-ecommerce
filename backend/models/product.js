@@ -17,10 +17,10 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: "idProduct",
         as: "comments",
       });
-      Product.hasMany(files, {
-        foreignKey: "id",
-        as: "files",
-      });
+      // Product.hasMany(files, {
+      //   foreignKey: "id",
+      //   as: "files",
+      // });
     }
   }
   Product.init(
